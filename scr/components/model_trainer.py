@@ -35,7 +35,7 @@ class ModelTrainer:
     
     def initate_model_training(self,train_array,test_array):
         try:
-            logging.info('Splitting Dependent and Independent Variables from Train and Test Data')
+            logging.info('Splitting Dependent and Independent Variables From Train and Test Data')
             xtrain, ytrain, xtest, ytest = (
                 train_array[:,:-1],
                 train_array[:,-1],
@@ -100,7 +100,7 @@ class ModelTrainer:
 
             best_cbr = rscv.best_estimator_
 
-            logging.info('Hyperparameter Tuning Complete For Catboost')
+            logging.info('Hyperparameter Tuning Complete for Catboost')
 
             logging.info('Hyperparameter Tuning Started for KNN')
 
