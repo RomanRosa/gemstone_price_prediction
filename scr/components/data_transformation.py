@@ -3,9 +3,9 @@ import os
 import numpy as np
 import pandas as pd
 
-from src.exeption import CustomException
-from src.logger import logging
-from src.utils import save_object
+from scr.exeption import CustomException
+from scr.logger import logging
+from scr.utils import save_object
 from dataclasses import dataclass
 
 from sklearn.compose import ColumnTransformer
